@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "experimentalDecorators": true
+    },
+    "exclude" : ["node_modules"],
+
+    "awesomeTypescriptLoaderOptions": {
+        "silent": true
+    }
+}
