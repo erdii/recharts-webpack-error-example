@@ -4,14 +4,12 @@ const webpack = require("webpack");
 
 const { CheckerPlugin } = require('awesome-typescript-loader');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 const PATHS = {
 	context: path.resolve(__dirname, "src"),
 	output: path.resolve(__dirname, "dist"),
 
 	entry: "./main",
-
 	bundle: `./static/js/[name].js`,
 };
 
